@@ -1,1 +1,15 @@
+:root {
+  --bg: color-mix(in srgb, #0f172a 90%, black);
+}
 
+body {
+  background: var(--bg);
+  font-family: system-ui, sans-serif;
+  color: white;
+  
+  .container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+}
